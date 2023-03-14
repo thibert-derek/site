@@ -3,7 +3,7 @@ import weather from '../assets/weather.jpeg'
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-screen h-full flex">
+    <div name="projects" className="w-full h-full flex">
          <div className="flex flex-col justify-center items-center w-full h-full">
             <div className="max-w-[1920px]">
                 <div className="sm:text-left pb-8">
