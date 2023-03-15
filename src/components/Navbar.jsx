@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger */}
-        <div onClick={handleClick} className ="sm:hidden hover:text-2xl duration-300 z-10">
+        <div onClick={handleClick} className ="sm:hidden hover:text-2xl duration-300 z-10 pr-5">
             {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
