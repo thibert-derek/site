@@ -12,7 +12,10 @@ const Contact = () => {
         <div className="text-1xl sm:text-2xl px-20">
             <p>Submit the form below or send me an email -- <a href="mailto:thibertderek@gmail.com" className="text-[#00FFBF]">thibertderek@gmail.com</a></p>
         </div>
-        <form method="POST" action="https://getform.io/f/316eb73c-f136-4dbb-92a1-5472734c2d7f" className="flex flex-col max-w-[1000px] px-20">
+        <form method="POST" 
+        action="https://getform.io/f/316eb73c-f136-4dbb-92a1-5472734c2d7f" 
+        enctype="multipart/form-data"
+        className="flex flex-col max-w-[1000px] px-20">
             <input className="p-2 my-2 bg-[#ccd6f6] text-black" type="text" placeholder="Name" name="name"/>
             <input className="p-2 my-2 bg-[#ccd6f6] text-black" type="email" placeholder="Email" name="email"/>
             <textarea className="p-2 my-2 bg-[#ccd6f6] text-black" cols="30" rows="10" type="message" placeholder="Message" name="name"/>

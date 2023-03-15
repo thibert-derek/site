@@ -6,11 +6,11 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="sm:bg-[#000235] fixed w-full h-[100px] flex justify-between items-center">
+    <div className="sm:bg-[#000235] w-full h-[100px] flex justify-between items-center">
         
         {/* Menu */}
         <div>
-        <ul className ="hidden sm:flex">
+        <ul className ="hidden sm:flex @apply cursor-pointer">
             <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
             <li><Link to="about" smooth={true} duration={500}>About</Link></li>
             <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
@@ -34,10 +34,10 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <ul className="hidden md:flex fixed flex-col top-[25%] left-0">
+        {/* <ul className="hidden md:flex fixed flex-col top-[25%] left-0">
           <li className = "py-2 text-4xl hover:ml-[10px] duration-300"><a href="https://www.linkedin.com/in/derek-thibert/"><FaLinkedin /></a></li>
           <li className = "py-2 text-4xl hover:ml-[10px] duration-300"><a href="https://github.com/thibert-derek"><FaGithub /></a></li>
-        </ul>
+        </ul> */}
     </div>
   )
 }

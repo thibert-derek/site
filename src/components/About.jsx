@@ -1,5 +1,5 @@
 import React from 'react'
-import Sky from '../assets/sky.jpg'
+import Face from '../assets/face.jpg'
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="px-20 md:px-5 text-center flex items-center justify-center">
-                    <img className="rounded-lg border-2 mw-[300px] justify-center items-center md:items-center left-0" src={Sky}/>
+                    <img className="rounded-lg border-2 mw-[500px] justify-center items-center md:items-center left-0" src={Face}/>
                 </div>
             </div>
         </div>
