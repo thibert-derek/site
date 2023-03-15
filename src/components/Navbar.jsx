@@ -5,6 +5,7 @@ import {Link} from 'react-scroll'
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+
   return (
     <div className="sm:bg-[#000235] w-full h-[100px] flex justify-between items-center">
         
