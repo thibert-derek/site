@@ -16,4 +16,8 @@
   li {
     @apply px-4;
   }
+
+  .active a{
+    color: green;
+  }
 }

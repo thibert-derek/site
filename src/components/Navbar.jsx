@@ -7,16 +7,16 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="sm:bg-[#000235] w-full h-[100px] flex justify-between items-center">
+    <div className="sm:bg-[#000235] w-full h-[100px] fixed flex justify-between items-center">
         
         {/* Menu */}
         <div>
         <ul className ="hidden sm:flex @apply cursor-pointer">
-            <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
-            <li><Link to="about" smooth={true} duration={500}>About</Link></li>
-            <li><Link to="skills" smooth={true} duration={500}>Skills</Link></li>
-            <li><Link to="projects" smooth={true} duration={500}>Projects</Link></li>
-            <li><Link to="contact" smooth={true} duration={500}>Contact</Link></li>
+            <li><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></li>
+            <li><Link to="about" spy={true} smooth={true} duration={500}>About</Link></li>
+            <li><Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>Skills</Link></li>
+            <li><Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
+            <li><Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link></li>
         </ul>    
         </div>
 
@@ -28,10 +28,10 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <ul className={!nav ? 'hidden' : 'top-0 left-0 w-full h-screen fixed flex flex-col justify-center items-center bg-[#000235]'}>
             <li className = "py-4 text-3xl"><Link onClick={handleClick} to="home" smooth={true} duration={500}>Home</Link></li>
-            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
-            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
-            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="projects" smooth={true} duration={500}>Projects</Link></li>
-            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link></li>
+            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="about" offset={-50} smooth={true} duration={500}>About</Link></li>
+            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="skills" offset={-100} smooth={true} duration={500}>Skills</Link></li>
+            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="projects" offset={-100} smooth={true} duration={500}>Projects</Link></li>
+            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="contact" offset={-100} smooth={true} duration={500}>Contact</Link></li>
         </ul>
 
         {/* Social Icons */}
