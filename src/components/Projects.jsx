@@ -28,9 +28,9 @@ const Projects = () => {
                                     <h3 className="font-bold text-2xl text-[#00FFBF]">Eye To The Sky</h3>
                                     <p className="py-4">Personal project building a weather application. Used OpenWeatherMap API, React and Tailwind.</p>
                                     <div className="justify-between items-right">
-                                        {/* <a className="px-4 my-2 border-2 hover:bg-white hover:text-black duration-300" href="/">
+                                        <a className="px-4 my-2 border-2 hover:bg-white hover:text-black duration-300" href="https://thibert-derek.github.io/eyetothesky.github.io/">
                                         Demo
-                                        </a> */}
+                                        </a>
                                         <a className="px-4 mx-2 my-2 border-2 md:hover:bg-white md:hover:text-black md:duration-300" href="https://github.com/thibert-derek/eyetothesky">
                                             Code
                                         </a>

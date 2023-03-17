@@ -20,4 +20,8 @@
   .active a{
     color: green;
   }
+
+  .navbar li{
+    color: green;
+  }
 }
