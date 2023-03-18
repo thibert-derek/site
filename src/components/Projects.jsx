@@ -1,5 +1,5 @@
 import React from 'react'
-import weather from '../assets/weather.jpeg'
+import weather2 from '../assets/weather2.jpeg'
 
 const Projects = () => {
     return (
@@ -22,7 +22,7 @@ const Projects = () => {
                             
                             <span className='justify-center'>
                                 <div>
-                                    <img className="sm:max-h-[600px] w-full" src={weather} />
+                                    <img className="sm:max-h-[600px] w-full" src={weather2} />
                                 </div>
                                 <div className="border-2 px-4 py-4">
                                     <h3 className="font-bold text-2xl text-[#00FFBF]">Eye To The Sky</h3>
