@@ -4,7 +4,7 @@ import { BsFiletypeSql } from 'react-icons/bs'
 import { SiC, SiJavascript } from 'react-icons/si'
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-full mt-[50px] md:mt-0">
+    <div name="skills" className="w-full h-full md:mt-0">
          <div className="flex flex-col justify-center items-center w-full h-screen">
             <div className="max-w-[1920px]">
                 <div className="sm:text-left pb-8">
