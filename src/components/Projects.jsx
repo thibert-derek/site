@@ -12,11 +12,10 @@ const Projects = () => {
                 </div>
                 <div className="text-2xl px-20 items-center">
                     <p>Check out some of my work.</p>
-                    <h1 className="text-3xl text-[#00FFBF]">More projects coming soon</h1>
                 </div>
-                {/* <div>
+                <div>
                 <h1 className="text-3xl text-[#00FFBF]">More projects coming soon</h1>
-                    </div> */}
+                    </div>
                 <div>
                     <div>
                         <div className="grid grid-cols-1 md:grid-cols-3 px-10 sm:px-20 py-10 justify-center gap-4 items-center">
