@@ -3,7 +3,7 @@ import Face from '../assets/face.jpg'
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen">
+    <div name="about" className="w-full h-full">
         <div className="flex flex-col justify-center items-center w-full h-full">
             <div className="max-w-[1920px]">
                 <div className="md:text-left pb-8">
@@ -11,7 +11,7 @@ const About = () => {
                 </div>
             </div>
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-5">
-                <div className="md:text-left px-20 md:border-r-2 col-span-1">
+                <div className="md:text-left px-10 md:border-r-2 col-span-1">
                     <p className ="text-[#00FFBF] font-bold text-3xl py-2">Greetings, my name is Derek!</p>
                     <p>I am a Canadian student graduating from the University of Windsor with a Bachelor's Degree in Computer Science.
                     I have in interest in full stack web development as well as software development.
