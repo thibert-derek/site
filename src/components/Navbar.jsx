@@ -12,11 +12,11 @@ const Navbar = () => {
         {/* Menu */}
         <div>
         <ul className ="hidden sm:flex @apply cursor-pointer">
-            <li><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></li>
-            <li><Link to="about" spy={true} smooth={true} duration={500}>About</Link></li>
-            <li><Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>Skills</Link></li>
-            <li><Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
-            <li><Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link></li>
+            <li className="hover:scale-125 duration-300" ><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></li>
+            <li className="hover:scale-125 duration-300" ><Link to="about" spy={true} smooth={true} duration={500}>About</Link></li>
+            <li className="hover:scale-125 duration-300" ><Link to="skills" spy={true} smooth={true} offset={-100} duration={500}>Skills</Link></li>
+            <li className="hover:scale-125 duration-300" ><Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
+            <li className="hover:scale-125 duration-300" ><Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link></li>
         </ul>    
         </div>
 

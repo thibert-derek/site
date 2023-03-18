@@ -12,8 +12,8 @@ const Home = () => {
             <h1 className='text-[#00FFBF] font-bold text-5xl md:text-7xl'>Derek Thibert</h1>
             <h2 className ='text-4xl md:text-5xl py-2'>Full Stack Web Developer</h2>
             <ul className="flex">
-              <li className = "py-2 text-4xl"><a href="https://www.linkedin.com/in/derek-thibert/"><FaLinkedin /></a></li>
-              <li className = "py-2 text-4xl"><a href="https://github.com/thibert-derek"><FaGithub /></a></li>
+              <li className = "py-2 text-4xl hover:scale-125 duration-300"><a href="https://www.linkedin.com/in/derek-thibert/"><FaLinkedin /></a></li>
+              <li className = "py-2 text-4xl hover:scale-125 duration-300"><a href="https://github.com/thibert-derek"><FaGithub /></a></li>
         </ul>
         </div>
 
