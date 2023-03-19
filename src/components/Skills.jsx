@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaHtml5, FaReact, FaCss3, FaJava, FaPython, FaNodeJs} from 'react-icons/fa'
+import {FaHtml5, FaReact, FaCss3, FaJava, FaPython, FaNodeJs, FaWordpress} from 'react-icons/fa'
 import { BsFiletypeSql } from 'react-icons/bs'
 import { SiC, SiJavascript } from 'react-icons/si'
 const Skills = () => {
@@ -45,6 +45,9 @@ const Skills = () => {
                         </li>
                         <li className="my-3 text-5xl sm:text-6xl">
                             <SiC />
+                        </li>
+                        <li className="my-3 text-5xl sm:text-6xl">
+                            <FaWordpress />
                         </li>
                     </ul>
                 </div>
