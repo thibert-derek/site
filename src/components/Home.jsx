@@ -14,10 +14,10 @@ const Home = () => {
             <h2 className ='text-4xl md:text-5xl py-2'>Freelance Developer</h2>
             <p className ='text-2xl py-2'>Let's turn your website and app idea into a reality together.</p>
             <ul className="flex">
-              <li className = "py-2 text-4xl hover:scale-125 duration-300"><a href="https://www.linkedin.com/in/derek-thibert/"><FaLinkedin /></a></li>
-              <li className = "py-2 text-4xl hover:scale-125 duration-300"><a href="https://github.com/thibert-derek"><FaGithub /></a></li>
-              <li className = "py-2 text-4xl hover:scale-125 duration-300"><a href="https://www.fiverr.com/thibertderek95?public_mode=true"><SiFiverr /></a></li>
-              <li className = "py-2 text-4xl hover:scale-125 duration-300"><a href="https://www.upwork.com/freelancers/~01478999416d7e1b54"><SiUpwork /></a></li>
+              <li className = "py-2 text-4xl hover:scale-150 duration-300"><a href="https://www.linkedin.com/in/derek-thibert/"><FaLinkedin /></a></li>
+              <li className = "py-2 text-4xl hover:scale-150 duration-300"><a href="https://github.com/thibert-derek"><FaGithub /></a></li>
+              <li className = "py-2 text-4xl hover:scale-150 duration-300"><a href="https://www.fiverr.com/thibertderek95?public_mode=true"><SiFiverr /></a></li>
+              <li className = "py-2 text-4xl hover:scale-150 duration-300"><a href="https://www.upwork.com/freelancers/~01478999416d7e1b54"><SiUpwork /></a></li>
         </ul>
         </div>
 

@@ -24,4 +24,9 @@
   .navbar li{
     color: green;
   }
+
+  th {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

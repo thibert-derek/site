@@ -1,45 +1,36 @@
 import React from 'react'
-import weather from '../assets/weather5.jpeg'
-import JNE from '../assets/JNE2.jpeg'
-import tictactoe from '../assets/ttt2.jpeg'
+import {FaQuoteLeft} from 'react-icons/fa'
 
-const Projects = () => {
+const Testimonials = () => {
     return (
         <div className="w-full h-full flex">
             <div className="flex flex-col justify-center items-center w-full h-full">
                 <div className="max-w-[1920px]">
                     <div className="sm:text-left pb-8">
-                        <h1 name="projects" className="text-4xl sm:text-5xl border-b-4 font-bold text-[#00FFBF]">Projects</h1>
+                        <h1 name="testimonials" className="text-4xl sm:text-5xl border-b-4 font-bold text-[#00FFBF]">Testimonials</h1>
                     </div>
                 </div>
-                <div className="text-3xl px-20 items-center">
-                    <p>Check out some of my work</p>
-                </div>
-                <div>
-                <h1 className="text-3xl text-[#00FFBF]">More projects coming soon</h1>
-                    </div>
                 <div>
                     <div>
                         <div className="grid grid-cols-1 lg:grid-cols-2 px-10 sm:px-20 py-10 justify-center gap-4 items-center">
                             
-                            <span className='justify-center my-5 w-[100%] items-center border-2'>
-                                <div>
-                                    <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={weather} />
-                                </div>
+                            <span className='justify-center w-[100%] items-center border-2'>
                                 <div className="px-6 py-4">
-                                    <h3 className="font-bold text-2xl text-[#00FFBF]">Eye To The Sky</h3>
-                                    <p className="py-4">Personal project building a weather application. Used OpenWeatherMap API, React and Tailwind.</p>
-                                    <div className="justify-between items-right">
-                                        <a className="px-4 my-2 border-2 hover:bg-white hover:text-black duration-300" href="https://thibert-derek.github.io/eyetothesky.github.io/">
-                                        Demo
-                                        </a>
-                                        <a className="px-4 mx-2 my-2 border-2 md:hover:bg-white md:hover:text-black md:duration-300" href="https://github.com/thibert-derek/eyetothesky">
-                                            Code
-                                        </a>
-                                    </div>
+                                    
+                                    <FaQuoteLeft />
+                                    <p className="py-4 italic">Derek worked for Cowlick Studios as a 3W Care specialist providing direct support to customers with changes or issues they were having with their websites. Derek was able to solve and troubleshoot code problems in a quick and efficient manner while maintaining a positive interaction with customers.</p>
+                                    <h3 className="font-bold text-2xl italic text-[#00FFBF]">- Daryl Driedger (Cowlick Studios)</h3>
                                 </div>
                             </span>
-                            <span className='justify-center my-5 w-[100%] items-center border-2'>
+                            {/* <span className='justify-center w-[100%] items-center border-2'>
+                                <div className="px-6 py-4">
+                                    
+                                    <FaQuoteLeft />
+                                    <p className="py-4 italic"></p>
+                                    <h3 className="font-bold text-2xl italic text-[#00FFBF]">- Cameron Proctor (University of Windsor)</h3>
+                                </div>
+                            </span> */}
+                            {/* <span className='justify-center my-5 w-[100%] items-center border-2'>
                                 <div>
                                     <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={JNE} />
                                 </div>
@@ -49,14 +40,14 @@ const Projects = () => {
                                     <div className="justify-between items-right">
                                         <a className="px-4 my-2 border-2 hover:bg-white hover:text-black duration-300" href="https://jnecontracting.ca/">
                                         Site
-                                        </a>
+                                        </a> */}
                                         {/* <a className="px-4 mx-2 my-2 border-2 md:hover:bg-white md:hover:text-black md:duration-300" href="https://github.com/thibert-derek/eyetothesky">
                                             Code
                                         </a> */}
-                                    </div>
+                                    {/* </div>
                                 </div>
-                            </span>
-                            <span className='justify-center my-5 w-[100%] items-center border-2'>
+                            </span> */}
+                            {/* <span className='justify-center my-5 w-[100%] items-center border-2'>
                                 <div>
                                     <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={tictactoe} />
                                 </div>
@@ -66,13 +57,13 @@ const Projects = () => {
                                     <div className="justify-between items-right">
                                         <a className="px-4 my-2 border-2 hover:bg-white hover:text-black duration-300" href="https://github.com/thibert-derek/TicTacToe">
                                         Code
-                                        </a>
+                                        </a> */}
                                         {/* <a className="px-4 mx-2 my-2 border-2 md:hover:bg-white md:hover:text-black md:duration-300" href="https://github.com/thibert-derek/eyetothesky">
                                             Code
                                         </a> */}
-                                    </div>
+                                    {/* </div>
                                 </div>
-                            </span>
+                            </span> */}
                             {/* <span className='border-2'>
                                 <div>
                                 <img className="sm:max-h-[400px]" src={weather}/>
@@ -115,4 +106,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Testimonials

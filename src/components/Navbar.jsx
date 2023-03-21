@@ -12,11 +12,13 @@ const Navbar = () => {
         {/* Menu */}
         <div>
         <ul className ="hidden sm:flex @apply cursor-pointer">
-            <li className="hover:scale-125 duration-300" ><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></li>
-            <li className="hover:scale-125 duration-300" ><Link to="about" spy={true} smooth={true} offset={-110} duration={500}>About</Link></li>
-            <li className="hover:scale-125 duration-300" ><Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link></li>
-            <li className="hover:scale-125 duration-300" ><Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
-            <li className="hover:scale-125 duration-300" ><Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="about" spy={true} smooth={true} offset={-110} duration={500}>About</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="projects" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="quotes" spy={true} smooth={true} offset={-50} duration={500}>Quotes</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="testimonials" spy={true} smooth={true} offset={-100} duration={500}>Testimonials</Link></li>
+            <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact</Link></li>
         </ul>    
         </div>
 
@@ -31,6 +33,8 @@ const Navbar = () => {
             <li className = "py-4 text-3xl"><Link onClick={handleClick} to="about" offset={-100} smooth={true} duration={500}>About</Link></li>
             <li className = "py-4 text-3xl"><Link onClick={handleClick} to="skills" offset={-100} smooth={true} duration={500}>Skills</Link></li>
             <li className = "py-4 text-3xl"><Link onClick={handleClick} to="projects" offset={-100} smooth={true} duration={500}>Projects</Link></li>
+            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="quotes" offset={-100} smooth={true} duration={500}>Quotes</Link></li>
+            <li className = "py-4 text-3xl"><Link onClick={handleClick} to="testimonials" offset={-100} smooth={true} duration={500}>Testimonials</Link></li>
             <li className = "py-4 text-3xl"><Link onClick={handleClick} to="contact" offset={-100} smooth={true} duration={500}>Contact</Link></li>
         </ul>
 

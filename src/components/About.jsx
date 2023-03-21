@@ -11,7 +11,7 @@ const About = () => {
                 </div>
             </div>
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-5">
-                <div className="md:text-left px-10 md:border-r-2 col-span-1">
+                <div className="md:text-left px-5 md:border-r-2 col-span-1">
                     <p className ="text-[#00FFBF] font-bold text-3xl py-2">Greetings, my name is Derek!</p>
                     <p>I am a Canadian student graduating from the University of Windsor with a Bachelor's Degree in Computer Science.
                     I have in interest in full stack web development as well as software development.
