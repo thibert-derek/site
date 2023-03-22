@@ -11,7 +11,7 @@ const Navbar = () => {
         
         {/* Menu */}
         <div>
-        <ul className ="hidden sm:flex @apply cursor-pointer">
+        <ul className ="hidden md:flex @apply cursor-pointer">
             <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="home" spy={true} smooth={true} duration={500}>Home</Link></li>
             <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="about" spy={true} smooth={true} offset={-110} duration={500}>About</Link></li>
             <li className="hover:scale-125 duration-300 hover:text-[#00FFBF]" ><Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>Skills</Link></li>
