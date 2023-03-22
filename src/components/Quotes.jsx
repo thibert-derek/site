@@ -15,7 +15,7 @@ const Quotes = () => {
             </div>
             <div>
                 <div>
-                    <table className='mx-2 my-4 items-center justify-center text-center border-2'>
+                    <table className='md:mx-2 md:my-4 items-center justify-center text-center border-2'>
                         <thead>
                             <tr>
                                 <th className='border-b-2'></th>
