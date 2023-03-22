@@ -12,24 +12,25 @@ const Testimonials = () => {
                 </div>
                 <div>
                     <div>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 px-10 sm:px-20 py-10 justify-center gap-4 items-center">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 px-10 sm:px-20 py-10 gap-4">
                             
                             <span className='justify-center w-[100%] items-center border-2'>
                                 <div className="px-6 py-4">
                                     
                                     <FaQuoteLeft />
-                                    <p className="py-4 italic">Derek worked for Cowlick Studios as a 3W Care specialist providing direct support to customers with changes or issues they were having with their websites. Derek was able to solve and troubleshoot code problems in a quick and efficient manner while maintaining a positive interaction with customers.</p>
+                                    <p className="py-4 italic">Derek worked for Cowlick Studios as a Full Stack Web Developer providing direct support to customers with changes or issues they were having with their websites. Derek was able to solve and troubleshoot code problems in a quick and efficient manner while maintaining a positive interaction with customers.</p>
                                     <h3 className="font-bold text-2xl italic text-[#00FFBF]">- Daryl Driedger (Cowlick Studios)</h3>
                                 </div>
                             </span>
-                            {/* <span className='justify-center w-[100%] items-center border-2'>
+                            <span className='justify-center w-[100%] items-center border-2'>
                                 <div className="px-6 py-4">
                                     
                                     <FaQuoteLeft />
-                                    <p className="py-4 italic"></p>
+                                    <p className="py-4 italic">Derek was immensely helpful in our research group's Programmers for Education initiative which aims to design and develop Arduino based teaching activities that cover fundamental programming concepts using an interactive and tactile approach. 
+                                    I was impressed with the thoroughness that he approached the project and his organizational skills.</p>
                                     <h3 className="font-bold text-2xl italic text-[#00FFBF]">- Cameron Proctor (University of Windsor)</h3>
                                 </div>
-                            </span> */}
+                            </span>
                             {/* <span className='justify-center my-5 w-[100%] items-center border-2'>
                                 <div>
                                     <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={JNE} />
