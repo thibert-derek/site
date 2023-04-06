@@ -10,7 +10,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="text-1xl sm:text-3xl px-20 text-center">
-            <p>Submit the form below for a quote or send me an email <a href="mailto:thibertderek@gmail.com" className="text-[#00FFBF]">thibertderek@gmail.com</a></p>
+            <p>Submit the form below or send me an email <a href="mailto:thibertderek@gmail.com" className="text-[#00FFBF]">thibertderek@gmail.com</a></p>
         </div>
         <form method="POST" 
         action="https://getform.io/f/316eb73c-f136-4dbb-92a1-5472734c2d7f" 
