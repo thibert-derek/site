@@ -25,9 +25,9 @@ const ScrollButton = () => {
   window.addEventListener('scroll', toggleVisible);
 
     return (
-        <Button className="hidden md:inline hover:scale-125 duration-300">
+        <Button className="hidden md:inline">
     <FaArrowCircleUp onClick={scrollToTop} 
-    style={{display: visible ? 'inline' : 'none'}}/>
+    style={{display: visible ? 'inline' : 'none'}} className="hover:scale-125 duration-300"/>
     </Button>
     )
   }
