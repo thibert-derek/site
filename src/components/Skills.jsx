@@ -13,7 +13,7 @@ const Skills = () => {
             </div>
             <div>
                 <div className = "text-3xl px-20">
-                    <p>Here are the technologies I've worked with recently</p>
+                    <p>Here are some of the technologies I've worked with recently</p>
                 </div>
             </div>
             <div>

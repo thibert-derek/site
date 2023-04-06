@@ -13,8 +13,8 @@ const About = () => {
             <div className="max-w-[1000px] w-full grid md:grid-cols-2 gap-5">
                 <div className="md:text-left px-5 md:border-r-2 col-span-1">
                     <p className ="text-[#00FFBF] font-bold text-3xl py-2">Greetings, my name is Derek!</p>
-                    <p>I am a Canadian student graduating from the University of Windsor with a Bachelor's Degree in Computer Science.
-                    I have in interest in full stack web development as well as software development.
+                    <p>Good day! I'm a software developer with a specialty in web development from Windsor, Ontario, Canada. I enjoy using my talents to develop interactive and user-friendly online applications that can significantly improve people's lives. Look no further if you need a motivated team member to add new thoughts and vigour to your next endeavour. 
+                        Let's work together to make something truly amazing.
                     </p>
                 </div>
                 <div className="px-20 md:px-5 text-center flex items-center justify-center">

@@ -7,6 +7,7 @@ import Quotes from "./components/Quotes";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import ScrollButton from "./components/ScrollButton";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Testimonials />
     <Contact />
     <Footer />
+    <ScrollButton />
     </div>
   );
 }

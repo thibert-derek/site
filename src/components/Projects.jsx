@@ -24,7 +24,7 @@ const Projects = () => {
                             
                             <span className='justify-center my-5 w-[100%] items-center border-2'>
                                 <div>
-                                    <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={weather} />
+                                    <img className="mx-auto lg:h-[325px] lg:w-[500px]" src={weather} />
                                 </div>
                                 <div className="px-6 py-4">
                                     <h3 className="font-bold text-2xl text-[#00FFBF]">Eye To The Sky</h3>
@@ -41,7 +41,7 @@ const Projects = () => {
                             </span>
                             <span className='justify-center my-5 w-[100%] items-center border-2'>
                                 <div>
-                                    <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={JNE} />
+                                    <img className="mx-auto lg:h-[325px] lg:w-[500px]" src={JNE} />
                                 </div>
                                 <div className="px-6 py-4">
                                     <h3 className="font-bold text-2xl text-[#00FFBF]">JNE Contracting</h3>
@@ -58,7 +58,7 @@ const Projects = () => {
                             </span>
                             <span className='justify-center my-5 w-[100%] items-center border-2'>
                                 <div>
-                                    <img className="mx-auto lg:h-[350px] lg:w-[500px]" src={tictactoe} />
+                                    <img className="mx-auto lg:h-[325px] lg:w-[500px]" src={tictactoe} />
                                 </div>
                                 <div className="px-6 py-4">
                                     <h3 className="font-bold text-2xl text-[#00FFBF]">Tic Tac Toe</h3>
