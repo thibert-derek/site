@@ -11,7 +11,7 @@ const Contact = () => {
                 <h1 className ="text-4xl sm:text-5xl border-b-4 font-bold text-[#00FFBF]">Contact</h1>
             </div>
         </div>
-        <div className="text-1xl sm:text-3xl px-20 text-center">
+        <div className="text-2xl sm:text-3xl px-20 text-center">
             <p>Submit the form below or send me an email <a href="mailto:thibertderek@gmail.com" className="text-[#00FFBF]">thibertderek@gmail.com</a></p>
         </div>
         <form method="POST" 
@@ -23,7 +23,7 @@ const Contact = () => {
             <textarea className="p-5 my-2 bg-[#ffffff] text-black" cols="30" rows="10" type="message" placeholder="Message" name="name"/>
             <button className="border-2 items-center hover:bg-white hover:text-black duration-300 px-4 py-3 my-8 mx-auto flex">Send</button>
             </form>
-            <div className="text-1xl sm:text-3xl px-5 text-center">
+            <div className="text-2xl sm:text-3xl px-5 text-center">
             <p>Let's Get in Touch!</p>
         </div>
             <ul className="flex">
