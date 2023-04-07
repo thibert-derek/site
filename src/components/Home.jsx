@@ -5,7 +5,7 @@ import {SiFiverr, SiUpwork} from 'react-icons/si'
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen'>
+    <div name='home' className='w-full h-full md:h-screen'>
         <div className = 'max-w-[1000px] mx-auto items-center pb-10 flex flex-col justify-center h-full'>
             {/* <div className="py-10">
                 <img className="rounded-lg border-2 left-0 max-w-full justify-center items-center md:items-center md:max-w-[500px]" src={Face}/>
