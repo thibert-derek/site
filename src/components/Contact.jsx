@@ -18,9 +18,9 @@ const Contact = () => {
         action="https://getform.io/f/316eb73c-f136-4dbb-92a1-5472734c2d7f" 
         enctype="multipart/form-data"
         className="flex flex-col max-w-[800px] w-full">
-            <input className="p-5 my-2 bg-[#ffffff] text-black" type="text" placeholder="Name" name="name"/>
-            <input className="p-5 my-2 bg-[#ffffff] text-black" type="email" placeholder="Email" name="email"/>
-            <textarea className="p-5 my-2 bg-[#ffffff] text-black" cols="30" rows="10" type="message" placeholder="Message" name="name"/>
+            <input className="p-5 my-2 bg-[#ffffff] text-black" required type="text" placeholder="Name" name="name"/>
+            <input className="p-5 my-2 bg-[#ffffff] text-black" required type="email" placeholder="Email" name="email"/>
+            <textarea className="p-5 my-2 bg-[#ffffff] text-black" required cols="30" rows="10" type="message" placeholder="Message" name="name"/>
             <button className="border-2 items-center hover:bg-white hover:text-black duration-300 px-4 py-3 my-8 mx-auto flex">Send</button>
             </form>
             <div className="text-2xl sm:text-3xl px-5 pb-8 text-center">
