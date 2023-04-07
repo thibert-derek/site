@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/site/static/css/main.a7d8ca66.css",
-    "main.js": "/site/static/js/main.0b48ab56.js",
+    "main.css": "/site/static/css/main.f79f85f7.css",
+    "main.js": "/site/static/js/main.99833f65.js",
     "static/media/JNE2.jpeg": "/site/static/media/JNE2.615a8b7815bc66dfe601.jpeg",
     "static/media/weather5.jpeg": "/site/static/media/weather5.db05e77eedbb7cfd1ccf.jpeg",
     "static/media/DerekThibert_CV.pdf": "/site/static/media/DerekThibert_CV.25cba02cb0b177905d74.pdf",
     "static/media/ttt2.jpeg": "/site/static/media/ttt2.af6172106117f36f910c.jpeg",
     "index.html": "/site/index.html",
-    "main.a7d8ca66.css.map": "/site/static/css/main.a7d8ca66.css.map",
-    "main.0b48ab56.js.map": "/site/static/js/main.0b48ab56.js.map"
+    "main.f79f85f7.css.map": "/site/static/css/main.f79f85f7.css.map",
+    "main.99833f65.js.map": "/site/static/js/main.99833f65.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7d8ca66.css",
-    "static/js/main.0b48ab56.js"
+    "static/css/main.f79f85f7.css",
+    "static/js/main.99833f65.js"
   ]
 }
